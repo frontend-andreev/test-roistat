@@ -1,0 +1,24 @@
+.users-row {
+  display: grid;
+  grid-template-columns: auto 500px;
+  &__header {
+    span {
+      font-size: 18px;
+      font-weight: 700; 
+    }
+  }
+  &__column {
+    padding: 15px;
+    box-shadow: 1px 1px 0 0 #8d949a;
+    color: #000;
+  }
+  &__empty {
+    display: block;
+    padding: 15px;
+  }
+  &__child {
+    width: 98%;
+    justify-self: end;
+    grid-column: span 2;
+  }
+}

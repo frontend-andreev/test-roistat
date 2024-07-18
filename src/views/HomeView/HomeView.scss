@@ -1,0 +1,12 @@
+.home {
+  &__button, &__popup-button {
+    margin-top: 16px;
+    float: right;
+  }
+}
+.fade-enter-active, .fade-leave-active {
+  transition: opacity .5s;
+}
+.fade-enter, .fade-leave-to {
+  opacity: 0;
+}

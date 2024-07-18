@@ -1,0 +1,13 @@
+.users-header {
+  display: grid;
+  grid-template-columns: auto 500px;
+  &__column {
+    display: flex;
+    column-gap: 16px;
+    cursor: pointer;
+    span {
+      font-size: 18px;
+      font-weight: 700; 
+    }
+  }
+}
